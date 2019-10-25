@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .navHeader {
     height: 5rem; 
     background-color: black;
@@ -5,4 +15,13 @@
     top: 0;
     left: 0;
     right: 0;
+}
+
+.delEtt {
+    margin-top: 7rem;
+}
+
+.fa-bars {
+    font-size: 2rem;
+    
 }
