@@ -1,0 +1,27 @@
+@media screen and (min-width: 667px) {
+    .ikonAndLove > i {
+        display: none;
+        /* visibility: hidden; */
+    } 
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0;
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+
+    }
+
+    nav {
+        display: flex;
+        flex-grow: 1;
+    }
+}
+

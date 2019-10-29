@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -9,20 +10,59 @@ body {
 }
 
 header {
-    height: 5rem; 
+    height: 4rem; 
     background-color: black;
+    color: white;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    transition: 3s;
+    transition: 1s;
+    overflow: hidden;
+    align-items: center;
+}
+
+.ikonAndLove {
+    display: flex;
+    align-items: baseline;
+    font-size: 1.5rem;
+
+}
+
+.sizeChange {
+    display: flex;
+    align-items: baseline;
+    font-size: 1.5rem;
 }
 
 .delEtt {
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
 .fa-bars {
     font-size: 2rem;
+    margin: 1.5rem;
+
+}
+
+h3 {
+    margin: 1rem 0rem;
+}
+
+li {
+    color: white;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 5.5;
+
 
 }
